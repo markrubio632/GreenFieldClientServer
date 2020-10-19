@@ -12,10 +12,10 @@ import com.greenfield.repository.EnrolleeRepo;
 @EnableMongoRepositories(basePackageClasses = EnrolleeRepo.class)
 @ComponentScan(basePackages = "com.greenfield")
 @EnableEurekaServer
-public class GreenFieldProjectApplication {
+public class GreenFieldClientApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GreenFieldProjectApplication.class, args);
+		SpringApplication.run(GreenFieldClientApplication.class, args);
 		
 	}
 
